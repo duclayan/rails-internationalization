@@ -1,0 +1,7 @@
+<h1> Welcome to Page </h1>
+
+<% if @user %>
+    Logged In as : <%= @user.email%> </br>
+    Language : <%= @user.language%> </br>
+    <%= t :greetings %>
+<% end %>

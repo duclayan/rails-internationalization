@@ -1,0 +1,6 @@
+tl:
+  greetings: "Mabuhay!"
+  date:
+    formats:
+      default: "%Y/%m/%d"
+      short: "%Y/%m"
